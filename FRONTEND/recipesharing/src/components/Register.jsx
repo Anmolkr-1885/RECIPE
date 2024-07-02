@@ -36,7 +36,7 @@ const Register = () => {
         formDataToSend.append('password', formData.password);
         formDataToSend.append('username', formData.username);
         formDataToSend.append('profilePicture', formData.profilePicture);
-
+        // --vansh
         try {
             const response = await axios.post('http://localhost:8001/api/v1/users/register', formDataToSend, {
                 headers: {

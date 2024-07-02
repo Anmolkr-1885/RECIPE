@@ -2,7 +2,7 @@ import { Collection } from "../models/collection.js";
 import { ApiError } from "../utilities/ApiError.js";
 import { ApiResponse } from "../utilities/ApiResponse.js";
 
-// Add a new collection
+// Add a new collec
 // --vansh
 
 // 
