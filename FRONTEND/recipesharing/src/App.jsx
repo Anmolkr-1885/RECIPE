@@ -9,6 +9,9 @@ import SavedRecipes from "./components/SavedRecipes.jsx";
 import AuthorProfile from "./components/Authorprofile.jsx"
 import Trial from "./components/Trial.jsx";
 import './App.css'; 
+import AddRecipeForm from "./components/AddRecipe.jsx";
+import UpdateProfile from "./components/EditProfile.jsx";
+import EditProfilePicture from "./components/ChangeProfile.jsx";
 
 const App = () =>{
 return <>
@@ -23,6 +26,9 @@ return <>
    <Route path="/savedRecipes" element = {<SavedRecipes />} />
    <Route path="/authorprofile/:authorId" element={<AuthorProfile />} />
    <Route path="/trial" element={<Trial />} />
+   <Route path="/add-recipe" element={<AddRecipeForm />} />
+   <Route path="/edit-Profile" element={<UpdateProfile />} />
+   <Route path="/change-profile" element={<EditProfilePicture />} />
       </Routes>
 
     </BrowserRouter>
